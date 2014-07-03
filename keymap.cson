@@ -1,0 +1,3 @@
+'.workspace .editor:not(.mini)':
+  'alt-ctrl--': 'resize-panes:shrink-active-pane'
+  'alt-ctrl-=': 'resize-panes:enlarge-active-pane'
