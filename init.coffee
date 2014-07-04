@@ -8,7 +8,8 @@
 #
 # path = require 'path'
 #
-# atom.workspaceView.eachEditorView (editorView) ->
-#   editor = editorView.getEditor()
-#   if path.extname(editor.getPath()) is '.md'
-#     editor.setSoftWrap(true)
+ atom.workspaceView.eachEditorView (editorView) ->
+   editor = editorView.getEditor()
+   console.log editor
+   editor.setSoftTabs true
+   editor.setTabLength 4
