@@ -1,0 +1,10 @@
+'menu': [
+  'label': 'Packages'
+  'submenu': [
+    'label': 'Coffee Refactor'
+    'submenu': [
+        'label': 'Rename References'
+        'command': 'coffee-refactor:rename'
+    ]
+  ]
+]

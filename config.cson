@@ -31,3 +31,4 @@
   'showOnRightSideOfStatusBar': true
 'tree-view':
   'showOnRightSide': true
+'tabs-to-spaces.onSave': 'tabify'
