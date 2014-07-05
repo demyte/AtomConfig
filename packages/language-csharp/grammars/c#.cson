@@ -205,15 +205,15 @@
         'captures':
           '0':
             'name': 'punctuation.definition.string.begin.source.cs'
-        'match': '@'([^']|'')*''
+        'match': '@"([^"]|"")*"'
         'name': 'string.quoted.double.literal.source.cs'
       }
       {
-        'begin': '''
+        'begin': '"'
         'beginCaptures':
           '0':
             'name': 'punctuation.definition.string.begin.source.cs'
-        'end': '''
+        'end': '"'
         'endCaptures':
           '0':
             'name': 'punctuation.definition.string.end.source.cs'

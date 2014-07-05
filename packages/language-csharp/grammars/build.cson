@@ -28,11 +28,11 @@
         'name': 'entity.other.attribute-name.nant'
       }
       {
-        'begin': '''
+        'begin': '"'
         'beginCaptures':
           '0':
             'name': 'punctuation.definition.string.begin.nant'
-        'end': '''
+        'end': '"'
         'endCaptures':
           '0':
             'name': 'punctuation.definition.string.end.nant'

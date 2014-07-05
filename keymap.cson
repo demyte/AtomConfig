@@ -1,3 +1,6 @@
 '.workspace .editor:not(.mini)':
   'alt-ctrl--': 'resize-panes:shrink-active-pane'
   'alt-ctrl-=': 'resize-panes:enlarge-active-pane'
+'.platform-win32':
+  'ctrl-p': 'fuzzy-finder:toggle-file-finder'
+  'ctrl-n': 'fuzzy-finder:toggle-file-finder'
