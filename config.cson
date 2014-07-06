@@ -20,6 +20,7 @@
   'showIndentGuide': true
   'preferredLineLength': 360
   'scrollSensitivity': 60
+  'softTabs': false
 'coffee-compile':
   'noTopLevelFunctionWrapper': false
   'compileOnSave': true
