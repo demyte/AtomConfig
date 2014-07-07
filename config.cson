@@ -9,9 +9,11 @@
     'atom-dark-ui'
     'base16-eighties-dark'
   ]
-  'excludeVcsIgnoredPaths': false
   'projectHome': 'c:\\code'
   'useReactEditor': true
+  'ignoredNames': [
+    '.map'
+  ]
 'editor':
   'fontFamily': 'Source Code Pro'
   'tabLength': 4
