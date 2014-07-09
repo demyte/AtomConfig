@@ -1,7 +1,7 @@
 {
   "name": "coffee-refactor",
   "main": "./lib/main",
-  "version": "0.4.7",
+  "version": "0.4.8",
   "description": "CoffeeScript refactoring package for Atom",
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
     "test": "apm test"
   },
   "dependencies": {
-    "atom-refactor": "0.1.2",
+    "atom-refactor": "0.1.3",
     "lodash": "~2.4.1"
   },
   "devDependencies": {
@@ -32,10 +32,10 @@
     "url": "https://github.com/minodisk/coffee-refactor/issues"
   },
   "homepage": "https://github.com/minodisk/coffee-refactor",
-  "_id": "coffee-refactor@0.4.7",
+  "_id": "coffee-refactor@0.4.8",
   "dist": {
-    "shasum": "d5ac91022c84583fd79a3f23e1593ccb79da912c"
+    "shasum": "769c0c5ca619dac11f7e93f497d9735787283efd"
   },
-  "_resolved": "C:\\Users\\JSUMME~1\\AppData\\Local\\Temp\\d-11464-15480-kxasuw\\package.tgz",
-  "_from": "C:\\Users\\JSUMME~1\\AppData\\Local\\Temp\\d-11464-15480-kxasuw\\package.tgz"
+  "_resolved": "C:\\Users\\James\\AppData\\Local\\Temp\\d-11468-4548-lfy5md\\package.tgz",
+  "_from": "C:\\Users\\James\\AppData\\Local\\Temp\\d-11468-4548-lfy5md\\package.tgz"
 }

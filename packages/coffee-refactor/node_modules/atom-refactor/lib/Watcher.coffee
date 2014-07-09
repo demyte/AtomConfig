@@ -58,7 +58,7 @@ class Watcher extends EventEmitter
     # Start listening
     @editorView.on 'cursor:moved', @onCursorMoved
     @editor.on 'destroyed', @onDestroyed
-    @editor.buffer.on 'changed', @onBufferChanged
+    @editor.on 'contents-modified', @onContentsModified
 
     # Execute
     @parse()
@@ -67,7 +67,7 @@ class Watcher extends EventEmitter
     # Stop listening
     @editorView.off 'cursor:moved', @onCursorMoved
     @editor.off 'destroyed', @onDestroyed
-    @editor.buffer.off 'changed', @onBufferChanged
+    @editor.off 'contents-modified', @onContentsModified
 
     # Destruct instances
     @ripper?.destruct()
@@ -196,7 +196,7 @@ class Watcher extends EventEmitter
   User events
   ###
 
-  onBufferChanged: =>
+  onContentsModified: =>
     @parse()
 
   onCursorMoved: =>
