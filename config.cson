@@ -9,7 +9,7 @@
     'atom-dark-ui'
     'base16-eighties-dark'
   ]
-  'projectHome': 'c:\\code'
+  'projectHome': 'C:\\code'
   'useReactEditor': true
   'ignoredNames': [
     '.map'
@@ -28,6 +28,7 @@
   'compileOnSave': true
 'find-and-replace':
   'focusEditorAfterSearch': true
+  'openProjectFindResultsInRightPane': true
 'git-diff':
   'showIconsInEditorGutter': true
 'grammar-selector':
@@ -35,3 +36,14 @@
 'tree-view':
   'showOnRightSide': true
 'tabs-to-spaces.onSave': 'tabify'
+'autocomplete':
+  'includeCompletionsFromAllBuffers': true
+'autocomplete-plus':
+  'includeCompletionsFromAllBuffers': true
+  'fileBlacklist': '*.map'
+  'enableAutoActivation': false
+'autosave': {}
+'fuzzy-finder':
+  'ignoredNames': [
+    '*.map'
+  ]
