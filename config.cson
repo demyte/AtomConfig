@@ -47,3 +47,4 @@
   'ignoredNames': [
     '*.map'
   ]
+  'traverseIntoSymlinkDirectories': true
