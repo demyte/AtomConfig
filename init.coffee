@@ -10,6 +10,3 @@
 #
  atom.workspaceView.eachEditorView (editorView) ->
    editor = editorView.getEditor()
-   console.log editor
-   editor.setSoftTabs false
-   editor.setTabLength 4
