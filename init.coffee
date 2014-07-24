@@ -8,5 +8,12 @@
 #
 # path = require 'path'
 #
- atom.workspaceView.eachEditorView (editorView) ->
-   editor = editorView.getEditor()
+atom.workspaceView.eachEditorView (editorView) ->
+	# console.log Date.now()
+	# editorView.toggleSoftTabs()
+	# editor = editorView.getEditor()
+	# editor.softTabs = false
+	# editor.setSoftTabs false
+	# console.log editorView
+	# console.log editor
+	# atom.beep()

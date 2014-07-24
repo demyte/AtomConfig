@@ -14,6 +14,11 @@
   'ignoredNames': [
     '.map'
   ]
+  'disabledPackages': [
+    'atom-compile-coffee'
+    'coffee-lint'
+    'atomatigit'
+  ]
 'editor':
   'fontFamily': 'Source Code Pro'
   'tabLength': 4
@@ -22,6 +27,9 @@
   'showIndentGuide': true
   'preferredLineLength': 360
   'scrollSensitivity': 60
+  'softTabs': false
+  'enforceHardTabs': true
+  'requireHardTabs': true
 'coffee-compile':
   'noTopLevelFunctionWrapper': false
   'compileOnSave': true
@@ -40,7 +48,7 @@
 'autocomplete-plus':
   'includeCompletionsFromAllBuffers': true
   'fileBlacklist': '*.map'
-  'enableAutoActivation': false
+  'autoActivationDelay': 250
 'autosave': {}
 'fuzzy-finder':
   'ignoredNames': [
@@ -50,3 +58,6 @@
 'minimap':
   'plugins':
     'find-and-replace': false
+'coffee-lint':
+  'continuousLint': false
+  'lintOnSave': false
