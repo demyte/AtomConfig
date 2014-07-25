@@ -58,6 +58,7 @@
 'minimap':
   'plugins':
     'find-and-replace': false
+  'autoToggle': true
 'coffee-lint':
   'continuousLint': false
   'lintOnSave': false
