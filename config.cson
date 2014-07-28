@@ -18,6 +18,7 @@
     'atom-compile-coffee'
     'coffee-lint'
     'atomatigit'
+    'atom-spotify'
   ]
 'editor':
   'fontFamily': 'Source Code Pro'
@@ -62,3 +63,6 @@
 'coffee-lint':
   'continuousLint': false
   'lintOnSave': false
+'atom-spotify':
+  'showEqualizer': true
+'git-blame': {}
