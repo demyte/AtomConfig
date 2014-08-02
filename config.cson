@@ -19,6 +19,11 @@
     'coffee-lint'
     'atomatigit'
     'atom-spotify'
+    'regex-railroad-diagram'
+    'minimap'
+    'minimap-find-and-replace'
+    'minimap-git-diff'
+    'minimap-highlight-selected'
   ]
 'editor':
   'fontFamily': 'Source Code Pro'
