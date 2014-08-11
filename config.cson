@@ -24,6 +24,15 @@
     'minimap-find-and-replace'
     'minimap-git-diff'
     'minimap-highlight-selected'
+    'linter'
+    'coffee-refactor'
+    'js-refactor'
+    'refactor'
+    'livereload'
+    'regex-railroad-diagram'
+    'git-plus'
+    'local-history'
+    'color-picker'
   ]
 'editor':
   'fontFamily': 'Source Code Pro'
