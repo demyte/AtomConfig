@@ -6,7 +6,7 @@
   'userId': '8991cedca9e2d55152edf84dde1baddf79f09def'
 'core':
   'themes': [
-    'atom-dark-ui'
+    'seti-ui'
     'base16-eighties-dark'
   ]
   'projectHome': 'C:\\code'
@@ -33,6 +33,8 @@
     'git-plus'
     'local-history'
     'color-picker'
+    'file-icons'
+    'filetype-color'
   ]
 'editor':
   'fontFamily': 'Source Code Pro'
