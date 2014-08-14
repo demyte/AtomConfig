@@ -43,10 +43,10 @@
   'showInvisibles': true
   'showIndentGuide': true
   'preferredLineLength': 360
-  'scrollSensitivity': 60
-  'softTabs': false
+  'scrollSensitivity': 80
   'enforceHardTabs': true
   'requireHardTabs': true
+  'softTabs': false
 'coffee-compile':
   'noTopLevelFunctionWrapper': false
   'compileOnSave': true
