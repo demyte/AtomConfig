@@ -20,21 +20,15 @@
     'atomatigit'
     'atom-spotify'
     'regex-railroad-diagram'
-    'minimap'
-    'minimap-find-and-replace'
-    'minimap-git-diff'
-    'minimap-highlight-selected'
     'linter'
-    'coffee-refactor'
     'js-refactor'
-    'refactor'
     'livereload'
     'regex-railroad-diagram'
     'git-plus'
-    'local-history'
     'color-picker'
     'file-icons'
     'filetype-color'
+    'file-types'
   ]
 'editor':
   'fontFamily': 'Source Code Pro'
@@ -82,3 +76,5 @@
 'atom-spotify':
   'showEqualizer': true
 'git-blame': {}
+'file-types':
+  'cshtml': 'text.html.basic'
