@@ -29,6 +29,8 @@
     'file-icons'
     'filetype-color'
     'file-types'
+    'tab-switcher'
+    'minimap-find-and-replace'
   ]
 'editor':
   'fontFamily': 'Source Code Pro'
@@ -67,8 +69,7 @@
   ]
   'traverseIntoSymlinkDirectories': true
 'minimap':
-  'plugins':
-    'find-and-replace': false
+  'plugins': {}
   'autoToggle': true
 'coffee-lint':
   'continuousLint': false
@@ -78,3 +79,9 @@
 'git-blame': {}
 'file-types':
   'cshtml': 'text.html.basic'
+'highlight-line':
+  'enableSelectionBorder': true
+  'underline':
+    'dashed': true
+  'underlineRgbColor': '150, 150, 0'
+  'backgroundRgbColor': '75, 75, 75'
