@@ -83,5 +83,6 @@
   'enableSelectionBorder': true
   'underline':
     'dashed': true
+    'solid': false
   'underlineRgbColor': '150, 150, 0'
   'backgroundRgbColor': '75, 75, 75'
