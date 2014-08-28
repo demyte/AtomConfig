@@ -31,6 +31,9 @@
     'file-types'
     'tab-switcher'
     'minimap-find-and-replace'
+    'local-history'
+    'autocomplete-plus'
+    'autocomplete-paths'
   ]
 'editor':
   'fontFamily': 'Source Code Pro'
