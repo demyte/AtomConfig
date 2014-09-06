@@ -26,14 +26,13 @@
     'regex-railroad-diagram'
     'git-plus'
     'color-picker'
-    'file-icons'
-    'filetype-color'
-    'file-types'
     'tab-switcher'
     'minimap-find-and-replace'
     'local-history'
     'autocomplete-plus'
     'autocomplete-paths'
+    'file-types'
+    'file-icons'
   ]
 'editor':
   'fontFamily': 'Source Code Pro'
@@ -80,8 +79,7 @@
 'atom-spotify':
   'showEqualizer': true
 'git-blame': {}
-'file-types':
-  'cshtml': 'text.html.basic'
+'file-types': {}
 'highlight-line':
   'enableSelectionBorder': true
   'underline':
@@ -89,3 +87,4 @@
     'solid': false
   'underlineRgbColor': '150, 150, 0'
   'backgroundRgbColor': '75, 75, 75'
+'coffee-refactor': {}
