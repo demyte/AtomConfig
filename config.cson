@@ -1,90 +1,94 @@
-'exception-reporting':
-  'userId': '08501c52-eca2-97e7-d2c0-2be10c7ce3da'
-'welcome':
-  'showOnStartup': false
-'metrics':
-  'userId': '8991cedca9e2d55152edf84dde1baddf79f09def'
-'core':
-  'themes': [
-    'seti-ui'
-    'base16-eighties-dark'
-  ]
-  'projectHome': 'C:\\code'
-  'useReactEditor': true
-  'ignoredNames': [
-    '.map'
-  ]
-  'disabledPackages': [
-    'atom-compile-coffee'
-    'coffee-lint'
-    'atomatigit'
-    'atom-spotify'
-    'regex-railroad-diagram'
-    'linter'
-    'js-refactor'
-    'livereload'
-    'regex-railroad-diagram'
-    'git-plus'
-    'color-picker'
-    'tab-switcher'
-    'minimap-find-and-replace'
-    'local-history'
-    'autocomplete-plus'
-    'autocomplete-paths'
-    'file-types'
-    'file-icons'
-  ]
-'editor':
-  'fontFamily': 'Source Code Pro'
-  'tabLength': 4
-  'fontSize': 18
-  'showInvisibles': true
-  'showIndentGuide': true
-  'preferredLineLength': 360
-  'scrollSensitivity': 80
-  'enforceHardTabs': true
-  'requireHardTabs': true
-  'softTabs': false
-'coffee-compile':
-  'noTopLevelFunctionWrapper': false
-  'compileOnSave': true
-'find-and-replace':
-  'focusEditorAfterSearch': true
-  'openProjectFindResultsInRightPane': true
-'git-diff':
-  'showIconsInEditorGutter': true
-'grammar-selector':
-  'showOnRightSideOfStatusBar': true
-'tree-view':
-  'showOnRightSide': true
-'tabs-to-spaces.onSave': 'tabify'
-'autocomplete':
-  'includeCompletionsFromAllBuffers': true
-'autocomplete-plus':
-  'includeCompletionsFromAllBuffers': true
-  'fileBlacklist': '*.map'
-  'autoActivationDelay': 250
-'autosave': {}
-'fuzzy-finder':
-  'ignoredNames': [
-    '*.map'
-  ]
-  'traverseIntoSymlinkDirectories': true
-'minimap':
-  'plugins': {}
-  'autoToggle': true
-'coffee-lint':
-  'continuousLint': false
-  'lintOnSave': false
-'atom-spotify':
-  'showEqualizer': true
-'git-blame': {}
-'file-types': {}
-'highlight-line':
-  'enableSelectionBorder': true
-  'underline':
-    'dashed': true
-    'solid': false
-  'underlineRgbColor': '150, 150, 0'
-  'backgroundRgbColor': '75, 75, 75'
-'coffee-refactor': {}
+'global':
+  'exception-reporting':
+    'userId': '08501c52-eca2-97e7-d2c0-2be10c7ce3da'
+  'welcome':
+    'showOnStartup': false
+  'metrics':
+    'userId': '8991cedca9e2d55152edf84dde1baddf79f09def'
+  'core':
+    'themes': [
+      'seti-ui'
+      'base16-eighties-dark'
+    ]
+    'projectHome': 'C:\\code'
+    'useReactEditor': true
+    'ignoredNames': [
+      '.map'
+    ]
+    'disabledPackages': [
+      'coffee-lint'
+      'atomatigit'
+      'atom-spotify'
+      'regex-railroad-diagram'
+      'linter'
+      'js-refactor'
+      'livereload'
+      'regex-railroad-diagram'
+      'git-plus'
+      'color-picker'
+      'tab-switcher'
+      'minimap-find-and-replace'
+      'local-history'
+      'autocomplete-plus'
+      'autocomplete-paths'
+      'file-types'
+      'file-icons'
+      'atom-ctags'
+    ]
+    'autoHideMenuBar': true
+  'editor':
+    'fontFamily': 'Consolas'
+    'tabLength': 4
+    'showInvisibles': true
+    'showIndentGuide': true
+    'preferredLineLength': 360
+    'scrollSensitivity': 80
+    'enforceHardTabs': true
+    'requireHardTabs': true
+    'softTabs': false
+    'confirmCheckoutHeadRevision': false
+    'fontSize': 20
+    'invisibles': {}
+  'coffee-compile':
+    'noTopLevelFunctionWrapper': false
+    'compileOnSave': true
+    'compileOnSaveWithoutPreview': true
+  'find-and-replace':
+    'focusEditorAfterSearch': true
+    'openProjectFindResultsInRightPane': true
+  'git-diff':
+    'showIconsInEditorGutter': true
+  'tree-view':
+    'showOnRightSide': true
+  'autocomplete':
+    'includeCompletionsFromAllBuffers': true
+  'autocomplete-plus':
+    'includeCompletionsFromAllBuffers': true
+    'fileBlacklist': '*.map'
+    'autoActivationDelay': 250
+  'autosave':
+    'enabled': true
+  'fuzzy-finder':
+    'ignoredNames': [
+      '*.map'
+    ]
+    'traverseIntoSymlinkDirectories': true
+  'coffee-lint':
+    'continuousLint': false
+    'lintOnSave': false
+  'atom-spotify':
+    'showEqualizer': true
+  'goto':
+    'moreIgnoredNames': '*.cs, *.csproj, *.nsi, *.js, tools, .bundle, .live-archive, docs, lib, packages, scripts'
+    'logToConsole': true
+  'highlight-line':
+    'enableSelectionBorder': true
+    'underline': 'dashed'
+    'hideHighlightOnSelect': true
+  'minimap':
+    'adjustMinimapWidthToSoftWrap': false
+  'runner':
+    'extensions':
+      'ps1': 'powershell'
+  'autocomplete-plus-async':
+    'enableAutoActivation': false

@@ -9,11 +9,9 @@
 # path = require 'path'
 #
 atom.workspaceView.eachEditorView (editorView) ->
-	# console.log Date.now()
-	# editorView.toggleSoftTabs()
-	# editor = editorView.getEditor()
-	# editor.softTabs = false
-	# editor.setSoftTabs false
-	# console.log editorView
-	# console.log editor
-	# atom.beep()
+
+
+atom.workspaceView.command ‘custom:runselection’, ->
+  editor = atom.workspace.getActiveEditor()
+  selectedText = editor.getSelectedText() 
+  atom.workspaceView.trigger ‘runner:run’

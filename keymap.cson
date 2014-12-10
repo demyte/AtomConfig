@@ -1,6 +1,15 @@
 '.workspace .editor:not(.mini)':
   'alt-ctrl--': 'resize-panes:shrink-active-pane'
   'alt-ctrl-=': 'resize-panes:enlarge-active-pane'
+  'f5': 'run:file'
+  'shift-f5': 'run:selection'
+
 '.platform-win32':
   'ctrl-p': 'fuzzy-finder:toggle-file-finder'
   'ctrl-n': 'fuzzy-finder:toggle-file-finder'
+
+'.editor':
+  'ctrl-b': 'unset!'
+  'ctrl-alt-g': 'git-blame:toggle'
+  'ctrl-b': 'symbols-view:go-to-declaration'
+  'ctrl-alt-b': 'symbols-view:return-from-declaration'
