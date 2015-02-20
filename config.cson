@@ -1,94 +1,104 @@
-'global':
-  'exception-reporting':
-    'userId': '08501c52-eca2-97e7-d2c0-2be10c7ce3da'
-  'welcome':
-    'showOnStartup': false
-  'metrics':
-    'userId': '8991cedca9e2d55152edf84dde1baddf79f09def'
-  'core':
-    'themes': [
-      'seti-ui'
-      'base16-eighties-dark'
-    ]
-    'projectHome': 'C:\\code'
-    'useReactEditor': true
-    'ignoredNames': [
-      '.map'
-    ]
-    'disabledPackages': [
-      'coffee-lint'
-      'atomatigit'
-      'atom-spotify'
-      'regex-railroad-diagram'
-      'linter'
-      'js-refactor'
-      'livereload'
-      'regex-railroad-diagram'
-      'git-plus'
-      'color-picker'
-      'tab-switcher'
-      'minimap-find-and-replace'
-      'local-history'
-      'autocomplete-plus'
-      'autocomplete-paths'
-      'file-types'
-      'file-icons'
-      'atom-ctags'
-    ]
-    'autoHideMenuBar': true
-  'editor':
-    'fontFamily': 'Consolas'
-    'tabLength': 4
-    'showInvisibles': true
-    'showIndentGuide': true
-    'preferredLineLength': 360
-    'scrollSensitivity': 80
-    'enforceHardTabs': true
-    'requireHardTabs': true
-    'softTabs': false
-    'confirmCheckoutHeadRevision': false
-    'fontSize': 20
-    'invisibles': {}
-  'coffee-compile':
-    'noTopLevelFunctionWrapper': false
-    'compileOnSave': true
-    'compileOnSaveWithoutPreview': true
-  'find-and-replace':
-    'focusEditorAfterSearch': true
-    'openProjectFindResultsInRightPane': true
-  'git-diff':
-    'showIconsInEditorGutter': true
-  'tree-view':
-    'showOnRightSide': true
-  'autocomplete':
-    'includeCompletionsFromAllBuffers': true
-  'autocomplete-plus':
-    'includeCompletionsFromAllBuffers': true
-    'fileBlacklist': '*.map'
-    'autoActivationDelay': 250
-  'autosave':
-    'enabled': true
-  'fuzzy-finder':
-    'ignoredNames': [
-      '*.map'
-    ]
-    'traverseIntoSymlinkDirectories': true
-  'coffee-lint':
-    'continuousLint': false
-    'lintOnSave': false
-  'atom-spotify':
-    'showEqualizer': true
-  'goto':
-    'moreIgnoredNames': '*.cs, *.csproj, *.nsi, *.js, tools, .bundle, .live-archive, docs, lib, packages, scripts'
-    'logToConsole': true
-  'highlight-line':
-    'enableSelectionBorder': true
-    'underline': 'dashed'
-    'hideHighlightOnSelect': true
-  'minimap':
-    'adjustMinimapWidthToSoftWrap': false
-  'runner':
-    'extensions':
-      'ps1': 'powershell'
-  'autocomplete-plus-async':
-    'enableAutoActivation': false
+"*":
+  "exception-reporting":
+    userId: "08501c52-eca2-97e7-d2c0-2be10c7ce3da"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "8991cedca9e2d55152edf84dde1baddf79f09def"
+  core:
+    ignoredNames: [
+      ".map"
+  ]
+    disabledPackages: [
+      "atom-compile-coffee"
+      "coffee-lint"
+      "atomatigit"
+      "atom-spotify"
+      "regex-railroad-diagram"
+      "linter"
+      "js-refactor"
+      "livereload"
+      "regex-railroad-diagram"
+      "git-plus"
+      "color-picker"
+      "file-icons"
+      "filetype-color"
+      "file-types"
+      "tab-switcher"
+      "autocomplete-paths"
+      "autocomplete-plus"
+      "git-diff"
+      "themed-settings"
+  ]
+    themes: [
+      "seti-ui"
+      "base16-tomorrow-dark-theme"
+  ]
+    projectHome: "C:\\code"
+    autoHideMenuBar: true
+  editor:
+    fontFamily: "Source Code Pro"
+    showInvisibles: true
+    showIndentGuide: true
+    preferredLineLength: 360
+    tabLength: 4
+    softTabs: false
+    scrollSensitivity: 80
+    scrollPastEnd: true
+    useShadowDOM: true
+    invisibles: {}
+    fontSize: 17
+  "coffee-compile":
+    noTopLevelFunctionWrapper: false
+    compileOnSave: true
+  "find-and-replace":
+    focusEditorAfterSearch: true
+    openProjectFindResultsInRightPane: true
+  "git-diff":
+    showIconsInEditorGutter: true
+  "tree-view":
+    showOnRightSide: true
+  autocomplete:
+    includeCompletionsFromAllBuffers: true
+  "autocomplete-plus":
+    includeCompletionsFromAllBuffers: true
+    fileBlacklist: "*.map"
+    autoActivationDelay: 250
+  "fuzzy-finder":
+    ignoredNames: [
+      "*.map"
+  ]
+    traverseIntoSymlinkDirectories: true
+  minimap:
+    plugins:
+      selection: true
+      "git-diff": true
+      "find-and-replace": true
+  "coffee-lint":
+    continuousLint: false
+    lintOnSave: false
+  "atom-spotify":
+    showEqualizer: true
+  "file-types":
+    cshtml: "text.html.basic"
+  "highlight-line":
+    hideHighlightOnSelect: true
+    enableSelectionBorder: true
+    underline: "dashed"
+  "atom-beautify":
+    _analyticsUserId: "362d17dc-0ff8-49dc-ac4d-0bea6d5120d4"
+  runner:
+    extensions:
+      ps1: "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.EXE –file"
+".cshtml.html.text":
+  editor:
+    preferredLineLength: 360
+".nant-build.source":
+  editor:
+    preferredLineLength: 360
+".csx.source":
+  editor:
+    preferredLineLength: 360
+".cs.source":
+  editor:
+    preferredLineLength: 360

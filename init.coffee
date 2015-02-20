@@ -8,7 +8,7 @@
 #
 # path = require 'path'
 #
-atom.workspaceView.eachEditorView (editorView) ->
+#atom.workspaceView.eachEditorView (editorView) ->
 
 
 atom.workspaceView.command ‘custom:runselection’, ->
